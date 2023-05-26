@@ -1,0 +1,292 @@
+ /* Extra small devices (phones, 600px and down) */
+@media (max-width: 480px) {
+    .aboutCol1 p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: #fff;
+    }
+    .aboutCol2{
+        position: relative;
+        bottom: 3em;
+    }
+    .simpleAbout{
+        background-color: #84449a;
+        margin-top: 5px;
+        padding: 2em 1em;
+        height: auto;
+    
+    }
+    .simpleAboutHead h5{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+        color: #fff;
+    }
+    .simpleAboutHead p{
+        font-family: 'Oregano', cursive; 
+        font-size: 1em;
+        color: #fff;
+        margin-top: -4px;
+    }
+    .aboutImageContainer{
+        padding: 6px;
+        margin-top: 3em;
+        position: relative;
+        
+    }
+    .aboutImage{
+       border-radius: 8px;
+       position: relative;
+       left: 1em;
+    }
+    .aboutImage2{
+        position: absolute;
+        z-index: 99;
+        right: .2em;
+        top: 2.5em;
+        border-radius: 8px;
+     }
+     .aboutImage2:hover{
+        position: absolute;
+        z-index: 99;
+        right: 5em;
+        top: 3em;
+        border-radius: 8px;
+        visibility: hidden;
+        transition: all .5s ease-out;
+     }
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .aboutCol1 p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: #fff;
+    }
+    .aboutCol2{
+        position: relative;
+        bottom: 3em;
+    }
+    .simpleAbout{
+        background-color: #84449a;
+        margin-top: 5px;
+        padding: 2em 1em;
+        height: auto;
+    
+    }
+    .simpleAboutHead h5{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+        color: #fff;
+    }
+    .simpleAboutHead p{
+        font-family: 'Oregano', cursive; 
+        font-size: 1em;
+        color: #fff;
+        margin-top: -4px;
+    }
+    .aboutImageContainer{
+        padding: 6px;
+        position: relative;
+      
+    }
+    .aboutImage{
+       border-radius: 8px;
+    }
+    .aboutImage2{
+        position: absolute;
+        z-index: 99;
+        right: 5em;
+        top: 3em;
+        border-radius: 8px;
+     }
+     .aboutImage2:hover{
+        position: absolute;
+        z-index: 99;
+        right: 5em;
+        top: 3em;
+        border-radius: 8px;
+        visibility: hidden;
+        transition: all .5s ease-out;
+     }
+   
+  }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .aboutCol1 p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: #fff;
+    }
+    .aboutCol2{
+        position: relative;
+        bottom: 3em;
+    }
+    .simpleAbout{
+        background-color: #84449a;
+        margin-top: 5px;
+        padding: 2em 1em;
+        height: auto;
+    
+    }
+    .simpleAboutHead h5{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+        color: #fff;
+    }
+    .simpleAboutHead p{
+        font-family: 'Oregano', cursive; 
+        font-size: 1em;
+        color: #fff;
+        margin-top: -4px;
+    }
+    .aboutImageContainer{
+        padding: 6px;
+        position: relative;
+      
+    }
+    .aboutImage{
+       border-radius: 8px;
+    }
+    .aboutImage2{
+        position: absolute;
+        z-index: 99;
+        right: 5em;
+        top: 3em;
+        border-radius: 8px;
+     }
+     .aboutImage2:hover{
+        position: absolute;
+        z-index: 99;
+        right: 5em;
+        top: 3em;
+        border-radius: 8px;
+        visibility: hidden;
+        transition: all .5s ease-out;
+     }
+   
+  }
+  
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .aboutCol1 p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: #fff;
+    }
+    .aboutCol2{
+        position: relative;
+        bottom: 3em;
+    }
+    .simpleAbout{
+        background-color: #84449a;
+        margin-top: 5px;
+        padding: 2em 1em;
+        height: auto;
+    
+    }
+    .simpleAboutHead h5{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+        color: #fff;
+    }
+    .simpleAboutHead p{
+        font-family: 'Oregano', cursive; 
+        font-size: 1em;
+        color: #fff;
+        margin-top: -4px;
+    }
+    .aboutImageContainer{
+        padding: 6px;
+        position: relative;
+      
+    }
+    .aboutImage{
+       border-radius: 8px;
+    }
+    .aboutImage2{
+        position: absolute;
+        z-index: 99;
+        right: 5em;
+        top: 3em;
+        border-radius: 8px;
+     }
+     .aboutImage2:hover{
+        position: absolute;
+        z-index: 99;
+        right: 5em;
+        top: 3em;
+        border-radius: 8px;
+        visibility: hidden;
+        transition: all .5s ease-out;
+     }
+   
+  }
+  
+  /* Media Query for Large screens */
+  @media (min-width: 1281px) {
+    .aboutCol1 p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: #fff;
+    }
+    .aboutCol2{
+        position: relative;
+        bottom: 3em;
+    }
+    .simpleAbout{
+        background-color: #84449a;
+        margin-top: 5px;
+        padding: 2em 1em;
+        height: auto;
+    
+    }
+    .simpleAboutHead h5{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+        color: #fff;
+    }
+    .simpleAboutHead p{
+        font-family: 'Oregano', cursive; 
+        font-size: 1em;
+        color: #fff;
+        margin-top: -4px;
+    }
+    .aboutImageContainer{
+        padding: 6px;
+        position: relative;
+      
+    }
+    .aboutImage{
+       border-radius: 8px;
+    }
+    .aboutImage2{
+        position: absolute;
+        z-index: 99;
+        right: 5em;
+        top: 3em;
+        border-radius: 8px;
+     }
+     .aboutImage2:hover{
+        position: absolute;
+        z-index: 99;
+        right: 5em;
+        top: 3em;
+        border-radius: 8px;
+        visibility: hidden;
+        transition: all .5s ease-out;
+     }
+    
+  }
+  

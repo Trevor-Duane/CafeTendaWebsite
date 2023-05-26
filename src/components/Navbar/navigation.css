@@ -1,0 +1,237 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .mainNav{
+        box-shadow: 0 2px 2px -2px #84449a;
+        background-color: #FAF9F6;
+    }
+     
+    .myNav{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 0;
+        margin-left: 0;
+
+
+    }
+    .myNav ul{
+        list-style: none;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 4px;
+        margin-left: 0px;
+        padding: 0;
+    }
+    .myNav ul li{
+        display: inline-block;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        font-size: 1em;
+    }
+    .nav-link{
+        text-decoration: none;
+        transition: all 2s ease-out;
+    }
+    .nav-link:hover{
+        color: #521c73 !important;
+    }
+  
+    .nav-link.active{
+        color: #521c73 !important;
+        text-decoration: overline;
+
+    }
+    .orderNowButton{
+        font-weight: bold !important;
+        background-color: #84449a !important;
+    }
+   
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media screen and (min-width: 600px) {
+    .mainNav{
+        box-shadow: 0 2px 2px -2px #84449a;
+        background-color: #FAF9F6;
+    }
+     
+    .myNav{
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .myNav ul{
+        list-style: none;
+        align-self: center !important;
+        margin-top: 14px;
+    }
+    .myNav ul li{
+        display: inline-block;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+    }
+    .nav-link{
+        text-decoration: none;
+        transition: all 2s ease-out;
+    }
+    .nav-link:hover{
+        color: #521c73 !important;
+    }
+  
+    .nav-link.active{
+        color: #521c73 !important;
+        text-decoration: overline;
+
+    }
+    .orderNowButton{
+        font-weight: bold !important;
+        border: none !important;
+        background-color: #84449a !important;
+
+    }
+  
+}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media screen and (min-width: 768px) {
+    .mainNav{
+        box-shadow: 0 2px 2px -2px #84449a;
+        background-color: #FAF9F6;
+    }
+     
+    .myNav{
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .myNav ul{
+        list-style: none;
+        align-self: center !important;
+        margin-top: 14px;
+    }
+    .myNav ul li{
+        display: inline-block;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+    }
+    .nav-link{
+        text-decoration: none;
+        transition: all 2s ease-out;
+    }
+    .nav-link:hover{
+        color: #521c73 !important;
+    }
+  
+    .nav-link.active{
+        color: #521c73 !important;
+        text-decoration: overline;
+
+    }
+    .orderNowButton{
+        font-weight: bold !important;
+    }
+    
+}
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media screen and (min-width: 992px) {
+    .mainNav{
+        box-shadow: 0 2px 2px -2px #84449a;
+        background-color: #FAF9F6;
+    }
+     
+    .myNav{
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .myNav ul{
+        list-style: none;
+        align-self: center !important;
+        margin-top: 14px;
+    }
+    .myNav ul li{
+        display: inline-block;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+    }
+    .nav-link{
+        text-decoration: none;
+        transition: all 2s ease-out;
+    }
+    .nav-link:hover{
+        color: #521c73 !important;
+    }
+  
+    .nav-link.active{
+        color: #521c73 !important;
+        text-decoration: overline;
+        text-decoration-style: dotted;
+
+    }
+    .orderNowButton{
+        font-weight: bold !important;
+        border: dotted 1px #84449a !important;
+        color: #FAF9F6 !important;
+    }
+    .button-link{
+        background-color: none !important;
+        color: #FAF9F6 !important;
+
+    }
+    
+   
+}
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media screen and (min-width: 1200px) {
+    .mainNav{
+        box-shadow: 0 4px 4px -3px #84449a;
+        background-color: #FAF9F6;
+    }
+     
+    .myNav{
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .myNav ul{
+        list-style: none;
+        align-self: center !important;
+        margin-top: 14px;
+    }
+    .myNav ul li{
+        display: inline-block;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+    }
+    .nav-link{
+        text-decoration: none;
+        transition: all 2s ease-out;
+    }
+    .nav-link:hover{
+        color: #521c73 !important;
+    }
+  
+    .nav-link.active{
+        color: #521c73 !important;
+        text-decoration: overline;
+        text-decoration-style: dotted;
+    }
+    .orderNowButton{
+        font-weight: bold !important;
+        border: dotted 1px #84449a !important;
+        color: #FAF9F6 !important;
+    }
+    .button-link{
+        background-color: none !important;
+    }
+    
+}
+
+
+
+
+ 

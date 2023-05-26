@@ -1,0 +1,550 @@
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 480px) {
+    .footerSection {
+        display: block;
+        background-color: #1a1110;
+        flex-direction: column;
+        overflow: hidden;
+        position: relative;
+      }
+      .footerContainer {
+        padding: 10px 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 4em;
+        margin-top: 2em;
+      }
+      /* first grid */
+      .firstGrid h5 {
+        color: #fff;
+        text-align: left;
+        text-decoration: underline;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .firstGrid p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        /* color: #fff; */
+        color: #707070;
+        margin-top: -4px;
+      }
+      .socialLinks {
+        display: flex;
+        gap: 8px;
+      }
+      
+      /* second grid footer */
+      .secondGrid h5 {
+        color: #fff;
+        text-decoration: underline;
+        text-align: left;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .secondGrid ul li {
+        color: #707070;
+        cursor: pointer;
+        font-family: "Oregano", cursive;
+      }
+      .secondGrid ul li:hover {
+        color: #fff;
+        cursor: pointer;
+      }
+      /* third grid footer */
+      .thirdGrid h5 {
+        color: #fff;
+        text-align: left;
+        text-decoration: underline;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .thirdGrid p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        /* color: #fff; */
+        color: #707070;
+        margin-top: -4px;
+      }
+      .thirdGridPhones span {
+        color: #fff;
+      }
+      .thirdGridPhones p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        color: #707070;
+        margin-top: 4px;
+        line-height: 14px;
+      }
+      .thirdGridEmail span {
+        color: #fff;
+      }
+      .thirdGridLocation span {
+        color: #fff;
+      }
+      .bottomFooter {
+        position: absolute;
+        border-top: 1px solid #1a2421;
+        background-color: black;
+        width: 100%;
+        bottom: 0;
+      }
+      .bottomFooter p {
+        font-size: 0.75em;
+        color: #fff;
+        padding: auto;
+        margin: auto;
+        padding: 0.5em;
+        text-align: center;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 481px) and (max-width: 767px) {
+    .footerSection {
+        display: block;
+        background-color: #1a1110;
+        flex-direction: column;
+        overflow: hidden;
+        position: relative;
+      }
+      .footerContainer {
+        padding: 10px 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 4em;
+        margin-top: 2em;
+      }
+      /* first grid */
+      .firstGrid h5 {
+        color: #fff;
+        text-align: left;
+        text-decoration: underline;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .firstGrid p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        /* color: #fff; */
+        color: #707070;
+        margin-top: -4px;
+      }
+      .socialLinks {
+        display: flex;
+        gap: 8px;
+      }
+      
+      /* second grid footer */
+      .secondGrid h5 {
+        color: #fff;
+        text-decoration: underline;
+        text-align: left;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .secondGrid ul li {
+        color: #707070;
+        cursor: pointer;
+        font-family: "Oregano", cursive;
+      }
+      .secondGrid ul li:hover {
+        color: #fff;
+        cursor: pointer;
+      }
+      /* third grid footer */
+      .thirdGrid h5 {
+        color: #fff;
+        text-align: left;
+        text-decoration: underline;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .thirdGrid p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        /* color: #fff; */
+        color: #707070;
+        margin-top: -4px;
+      }
+      .thirdGridPhones span {
+        color: #fff;
+      }
+      .thirdGridPhones p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        color: #707070;
+        margin-top: 4px;
+        line-height: 14px;
+      }
+      .thirdGridEmail span {
+        color: #fff;
+      }
+      .thirdGridLocation span {
+        color: #fff;
+      }
+      .bottomFooter {
+        position: absolute;
+        border-top: 1px solid #1a2421;
+        background-color: black;
+        width: 100%;
+        bottom: 0;
+      }
+      .bottomFooter p {
+        font-size: 0.75em;
+        color: #fff;
+        padding: auto;
+        margin: auto;
+        padding: 0.5em;
+        text-align: center;
+      }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footerSection {
+        display: block;
+        background-color: #1a1110;
+        flex-direction: column;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        position: relative;
+      }
+      .footerContainer {
+        padding: 10px 0px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 4em;
+        margin-top: 2em;
+      }
+      /* first grid */
+      .firstGrid h5 {
+        color: #fff;
+        text-align: left;
+        text-decoration: underline;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .firstGrid p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        /* color: #fff; */
+        color: #707070;
+        margin-top: -4px;
+      }
+      .socialLinks {
+        display: flex;
+        gap: 8px;
+      }
+      
+      /* second grid footer */
+      .secondGrid h5 {
+        color: #fff;
+        text-decoration: underline;
+        text-align: left;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .secondGrid ul li {
+        color: #707070;
+        cursor: pointer;
+        font-family: "Oregano", cursive;
+      }
+      .secondGrid ul li:hover {
+        color: #fff;
+        cursor: pointer;
+      }
+      /* third grid footer */
+      .thirdGrid h5 {
+        color: #fff;
+        text-align: left;
+        text-decoration: underline;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .thirdGrid p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        /* color: #fff; */
+        color: #707070;
+        margin-top: -4px;
+      }
+      .thirdGridPhones span {
+        color: #fff;
+      }
+      .thirdGridPhones p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        color: #707070;
+        margin-top: 4px;
+        line-height: 14px;
+      }
+      .thirdGridEmail span {
+        color: #fff;
+      }
+      .thirdGridLocation span {
+        color: #fff;
+      }
+      .bottomFooter {
+        position: absolute;
+        border-top: 1px solid #1a2421;
+        background-color: black;
+        width: 100%;
+        bottom: 0;
+      }
+      .bottomFooter p {
+        font-size: 0.75em;
+        color: #fff;
+        padding: auto;
+        margin: auto;
+        padding: 0.5em;
+        text-align: center;
+      }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .footerSection {
+        display: block;
+        background-color: #1a1110;
+        flex-direction: column;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        position: relative;
+      }
+      .footerContainer {
+        padding: 10px 0px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 4em;
+        margin-top: 2em;
+      }
+      /* first grid */
+      .firstGrid h5 {
+        color: #FAF9F6;
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .firstGrid p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        /* color: #fff; */
+        color: #707070;
+        margin-top: -4px;
+      }
+      .socialLinks {
+        display: flex;
+        gap: 8px;
+      }
+      
+      /* second grid footer */
+      .secondGrid h5 {
+        color: #FAF9F6;
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .secondGrid ul li {
+        color: #707070;
+        cursor: pointer;
+        font-family: "Oregano", cursive;
+      }
+      .secondGrid ul li:hover {
+        color: #fff;
+        cursor: pointer;
+      }
+      /* third grid footer */
+      .thirdGrid h5 {
+        color: #FAF9F6;
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .thirdGrid p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        /* color: #fff; */
+        color: #707070;
+        margin-top: -4px;
+      }
+      .thirdGridPhones span {
+        color: #84449a;
+        text-decoration: overline;
+      }
+      .thirdGridPhones p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        color: #707070;
+        margin-top: 4px;
+        line-height: 14px;
+      }
+      .thirdGridEmail span {
+        color: #84449a;
+        text-decoration: overline;
+      }
+      .thirdGridLocation span {
+        color: #84449a;
+        text-decoration: overline;
+      }
+      .bottomFooter {
+        position: absolute;
+        border-top: 1px solid #1a2421;
+        background-color: black;
+        width: 100%;
+        bottom: 0;
+      }
+      .bottomFooter p {
+        font-size: 0.75em;
+        color: #fff;
+        padding: auto;
+        margin: auto;
+        padding: 0.5em;
+        text-align: center;
+      }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    .footerSection {
+        display: block;
+        background-color: #1a1110;
+        flex-direction: column;
+        overflow: hidden;
+        position: relative;
+      }
+      .footerContainer {
+        padding: 10px 0px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 4em;
+        margin-top: 2em;
+      }
+      /* first grid */
+      .firstGrid h5 {
+        color: #fff;
+        text-align: left;
+        text-decoration: underline;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .firstGrid p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        /* color: #fff; */
+        color: #707070;
+        margin-top: -4px;
+      }
+      .socialLinks {
+        display: flex;
+        gap: 8px;
+      }
+      
+      /* second grid footer */
+      .secondGrid h5 {
+        color: #fff;
+        text-decoration: underline;
+        text-align: left;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .secondGrid ul li {
+        color: #707070;
+        cursor: pointer;
+        font-family: "Oregano", cursive;
+      }
+      .secondGrid ul li:hover {
+        color: #fff;
+        cursor: pointer;
+      }
+      /* third grid footer */
+      .thirdGrid h5 {
+        color: #fff;
+        text-align: left;
+        text-decoration: underline;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 16px 0px 0px 0px;
+      }
+      .thirdGrid p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        /* color: #fff; */
+        color: #707070;
+        margin-top: -4px;
+      }
+      .thirdGridPhones span {
+        color: #fff;
+      }
+      .thirdGridPhones p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        color: #707070;
+        margin-top: 4px;
+        line-height: 14px;
+      }
+      .thirdGridEmail span {
+        color: #fff;
+      }
+      .thirdGridLocation span {
+        color: #fff;
+      }
+      .bottomFooter {
+        position: absolute;
+        border-top: 1px solid #1a2421;
+        background-color: black;
+        width: 100%;
+        bottom: 0;
+      }
+      .bottomFooter p {
+        font-size: 0.75em;
+        color: #fff;
+        padding: auto;
+        margin: auto;
+        padding: 0.5em;
+        text-align: center;
+      }
+}

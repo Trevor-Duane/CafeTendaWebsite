@@ -1,0 +1,98 @@
+.footerSection{
+    display: block;
+    background-color: black;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+.detailsSection{
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 6px;
+}
+.detailsSection h4{
+    /* padding: 4px; */
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #cecbcb;
+    margin: 6px;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 82px #a020f0,
+    0 0 102px #a020f0,
+    0 0 151px #a020f0;
+}
+.horizontal-rule{
+    color: #85459A;
+    width: 40%;
+    
+}
+.horizontal-rule1{
+    color: antiquewhite;
+    width: 100%;
+
+}
+.aboutUs p{
+    color: antiquewhite;
+    font-size: .9rem;
+    text-align: left;
+    padding: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+.ourServices ul{
+    list-style: square;
+}
+.ourServices ul li{
+    color: antiquewhite;
+    font-size: .9rem;
+    font-family: 'Roboto', sans-serif;
+}
+.ourServices ul p{
+    color: white;
+    font-weight: lighter;
+    text-decoration: underline;
+    font-size: .8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .contact, .services, .whoWeAre{
+    flex: 1;
+    width: 32%;
+} */
+.copyrightSection{
+    height: auto;
+    display: flex;
+    align-items: center;
+    border-top: solid #85459A .05rem;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    background-color: #000000 ;
+}
+.copyrightText{
+    color: antiquewhite;
+    padding: 10px;
+    font-size: .9rem;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.contact p{
+    color: antiquewhite;
+    font-size: .9rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+.sub-head{
+    color: #85459A;
+    font-size: 1rem;
+}
+.ourMedia{
+    display: flex;
+    gap: 2rem;
+    padding: 6px;
+    margin-bottom: 6px;
+}

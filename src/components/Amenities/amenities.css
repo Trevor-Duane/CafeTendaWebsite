@@ -1,0 +1,235 @@
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 480px) {
+    .amenitiesWrapper {
+        background-color: #fff;
+        margin: 1em 0em;
+        padding: 1em 1em;
+        height: auto;
+      }
+      .amenitiesHeader h5 {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #84449a;
+        padding: 16px 0px 0px 0px;
+      }
+      .amenitiesHeader p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        color: #84449a;
+        margin-top: -4px;
+      }
+      .amenitiesContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 5em;
+        padding-top: 10px;
+        justify-content: space-around;
+        align-content: center;
+      }
+      .amenityContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .amenityContainer h6 {
+        font-size: 0.75em;
+        font-weight: 400;
+        padding: 6px;
+        font-family: "Roboto", sans-serif;
+      }
+      .amenityIcon {
+        height: 40px;
+        width: 40px;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 481px) and (max-width: 767px) {
+    .amenitiesWrapper {
+        background-color: #fff;
+        margin: 1em 0em;
+        padding: 1em 1em;
+        height: auto;
+      }
+      .amenitiesHeader h5 {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #84449a;
+        padding: 16px 0px 0px 0px;
+      }
+      .amenitiesHeader p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        color: #84449a;
+        margin-top: -4px;
+      }
+      .amenitiesContainer {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5em;
+        padding-top: 10px;
+        justify-content: space-around;
+        align-content: center;
+      }
+      .amenityContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .amenityContainer h6 {
+        font-size: 0.75em;
+        font-weight: 400;
+        padding: 6px;
+        font-family: "Roboto", sans-serif;
+      }
+      .amenityIcon {
+        height: 40px;
+        width: 40px;
+      }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .amenitiesWrapper {
+        background-color: #fff;
+        margin: 1em 0em;
+        padding: 1em 1em;
+        height: auto;
+      }
+      .amenitiesHeader h5 {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #84449a;
+        padding: 16px 0px 0px 0px;
+      }
+      .amenitiesHeader p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        color: #84449a;
+        margin-top: -4px;
+      }
+      .amenitiesContainer {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5em;
+        padding-top: 10px;
+        justify-content: space-around;
+        align-content: center;
+      }
+      .amenityContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .amenityContainer h6 {
+        font-size: 0.75em;
+        font-weight: 400;
+        padding: 6px;
+        font-family: "Roboto", sans-serif;
+      }
+      .amenityIcon {
+        height: 40px;
+        width: 40px;
+      }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .amenitiesWrapper {
+        background-color: #fff;
+        margin: 1em 0em;
+        padding: 1em 1em;
+        height: auto;
+      }
+      .amenitiesHeader h5 {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #84449a;
+        padding: 16px 0px 0px 0px;
+      }
+      .amenitiesHeader p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        color: #84449a;
+        margin-top: -4px;
+      }
+      .amenitiesContainer {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5em;
+        padding-top: 10px;
+        justify-content: space-around;
+        align-content: center;
+      }
+      .amenityContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .amenityContainer h6 {
+        font-size: 0.75em;
+        font-weight: 400;
+        padding: 6px;
+        font-family: "Roboto", sans-serif;
+      }
+      .amenityIcon {
+        height: 40px;
+        width: 40px;
+      }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    .amenitiesWrapper {
+        background-color: #fff;
+        margin: 1em 0em;
+        padding: 1em 1em;
+        height: auto;
+      }
+      .amenitiesHeader h5 {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #84449a;
+        padding: 16px 0px 0px 0px;
+      }
+      .amenitiesHeader p {
+        font-family: "Oregano", cursive;
+        font-size: 1em;
+        color: #84449a;
+        margin-top: -4px;
+      }
+      .amenitiesContainer {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5em;
+        padding-top: 10px;
+        justify-content: space-around;
+        align-content: center;
+      }
+      .amenityContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .amenityContainer h6 {
+        font-size: 0.75em;
+        font-weight: 400;
+        padding: 6px;
+        font-family: "Roboto", sans-serif;
+      }
+      .amenityIcon {
+        height: 40px;
+        width: 40px;
+      }
+}

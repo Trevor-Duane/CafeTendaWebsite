@@ -1,0 +1,25 @@
+.gallerySection{
+    background-color: #84449a;
+    margin-top: 5px;
+    padding: 1em 2em;
+    height: auto;
+}
+.galleryContainer{
+    margin-bottom: 3em;
+}
+.galleryHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 16px 0px 0px 0px;
+    color: #fff;
+}
+.galleryHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #fff;
+    margin-top: -4px;
+}
+.galleryImageGrid{
+    /* background-color: aqua; */
+}
