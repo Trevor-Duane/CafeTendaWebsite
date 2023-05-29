@@ -1,0 +1,13 @@
+.ourStoryHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 16px 0px 0px 0px;
+    color: #84449a;
+}
+.ourStoryHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #84449a;
+    margin-top: -4px;
+}

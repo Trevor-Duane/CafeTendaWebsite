@@ -47,7 +47,12 @@
         font-weight: bold !important;
         background-color: #84449a !important;
     }
-   
+    .button-link{
+        background-color: none !important;
+        color: #FAF9F6 !important;
+        padding: 0.18rem 0.75rem !important;
+    }
+    
 }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -89,8 +94,15 @@
         font-weight: bold !important;
         border: none !important;
         background-color: #84449a !important;
+        padding: 0.18rem 0rem !important;
 
     }
+    .button-link{
+        background-color: none !important;
+        color: #FAF9F6 !important;
+        padding: 0.18rem 0.75rem !important;
+    }
+    
   
 }
   
@@ -131,7 +143,15 @@
     }
     .orderNowButton{
         font-weight: bold !important;
+        padding: 0.18rem 0rem !important;
+
     }
+    .button-link{
+        background-color: none !important;
+        color: #FAF9F6 !important;
+        padding: 0.18rem 0.75rem !important;
+    }
+    
     
 }
   
@@ -168,18 +188,19 @@
     .nav-link.active{
         color: #521c73 !important;
         text-decoration: overline;
-        text-decoration-style: dotted;
+        /* text-decoration-style: dotted; */
 
     }
     .orderNowButton{
         font-weight: bold !important;
         border: dotted 1px #84449a !important;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         color: #FAF9F6 !important;
     }
     .button-link{
         background-color: none !important;
         color: #FAF9F6 !important;
-
+        padding: 0.18rem 0.75rem !important;
     }
     
    
@@ -218,16 +239,21 @@
     .nav-link.active{
         color: #521c73 !important;
         text-decoration: overline;
-        text-decoration-style: dotted;
+        /* text-decoration-style: dotted; */
     }
     .orderNowButton{
         font-weight: bold !important;
         border: dotted 1px #84449a !important;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         color: #FAF9F6 !important;
+
     }
     .button-link{
         background-color: none !important;
+        color: #FAF9F6 !important;
+        padding: 0.18rem 0.75rem !important;
     }
+    
     
 }
 

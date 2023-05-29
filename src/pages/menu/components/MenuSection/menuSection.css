@@ -1,0 +1,55 @@
+/* css for the second section of the page that has the menu items */
+.dishMenuWrapper{
+    background-image: url("../../../../assets/images/paper.png");
+    border-bottom-left-radius: -1.3em;
+    border-bottom-right-radius: -1.3em;
+    padding-bottom: 2em;
+}
+.dishMenuContent{
+    position: relative;
+
+}
+.dishMenuContentHead{
+    padding-top: 2em;
+    display: block;
+    top: -2em;
+    left: 45%;
+    margin: auto;
+
+}
+.dishMenuContentHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #84449a;
+
+}
+.dishMenuContentHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #84449a;
+    margin-top: -4px;
+}
+.dishMenuTabWrapper{
+    width: 100%;
+}
+.menuContentLeft{
+    background-color: none;
+}
+.menuTabLink{
+    background-color: #FAF9F6;
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.55) !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.menuTabLink.active{
+    background-color: #84449a !important;
+    color: #FFF !important;
+}
+.menuContentRight{
+    /* border: 1px solid #84449a; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(132, 68, 154, .7) 0px 5px 15px;
+    border-radius: 8px;
+}

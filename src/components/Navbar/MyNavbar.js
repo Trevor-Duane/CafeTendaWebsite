@@ -14,14 +14,14 @@ const pages = [
     path:"/"
   },
   {
-    id: 2,
-    name: "Our Menu",
-    path:"/our-menu"
-  },
-  {
     id: 3,
     name: "About Us",
     path:"/about-us"
+  },
+  {
+    id: 2,
+    name: "Menu",
+    path:"/our-menu"
   },
   {
     id: 4,
@@ -80,7 +80,7 @@ function MyNavbar() {
             </ul>
             
             <div>
-              <Button className= "orderNowButton text-white">
+              <Button className="orderNowButton text-white">
                 <NavLink
                   className="nav-link button-link"
                   to="/online-orders"

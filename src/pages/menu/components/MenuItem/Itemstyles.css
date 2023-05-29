@@ -1,0 +1,43 @@
+.menuItemRow{
+    padding: 2em 0em;
+}
+.menuItemsHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.menuItemsHeader span{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+.menuItemSingle{
+    border-bottom: 1px solid #d5d5d5;
+    padding-top: 1em;
+}
+.menuItemName {
+    flex: 1;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    color: #84449a;
+    font-weight: bold;
+}
+.menuItemName::after {
+  content: "";
+  border-bottom: 1px dotted;
+  flex: 1;
+  margin: 0.75em;
+}
+.menuItemPrice{
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #84449a;
+
+}
+.menuItemDescription p{
+    font-family: 'Lato', sans-serif;
+
+}

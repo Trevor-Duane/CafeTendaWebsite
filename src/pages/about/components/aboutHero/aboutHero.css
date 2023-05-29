@@ -1,0 +1,47 @@
+.aboutHeroWrapper{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../../../assets//images/bar2.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.aboutHeroContent{
+    position: relative;
+    /* background-color: aqua !important; */
+    height: inherit;
+}
+.aboutProfile{
+    display: flex;
+    justify-content: space-around;
+    width: inherit;
+    left: 0;
+    align-items: center;
+    gap: 4px;
+    bottom: 4px;
+    position: absolute;
+} 
+.aboutProfileLeft{
+    background-color: rgba(132, 68, 154, 0.9);
+    border-top-left-radius: 8px;
+
+
+}
+.aboutProfileRight{
+    background-color: rgba(132, 68, 154, 0.9);
+    border-top-right-radius: 8px;
+
+
+}
+.aboutProfile h5{
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    padding: 4px;
+}
+.aboutProfile p{
+    color: #fff;
+    padding: 4px;
+    font-family: 'Lato', sans-serif;
+}
