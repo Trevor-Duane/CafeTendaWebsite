@@ -50,8 +50,8 @@ export default function Content() {
           <Row className="contentRow m-0 p-0">
             <Col className="contentCol1 p-0" xs={12} sm={12} md={12}>
               <Carousel
-                autoplay={true} autoplayInterval={3000} wrapAround={true}>
-                <Image  className="img-fluid" height="540" src={outside} alt="cafe tenda interior"/>
+                autoplay={true} autoplayInterval={3000} wrapAround={true} adaptiveHeight={true}>
+                {/* <Image  className="img-fluid" height="540" src={outside} alt="cafe tenda interior"/> */}
                 <Image className="img-fluid" height="540" src={interior} alt="cafe tenda interior"/>
                 <Image className="img-fluid" height="540" src={eats} alt="cafe tenda interior"/>
               </Carousel>

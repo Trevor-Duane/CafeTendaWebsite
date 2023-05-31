@@ -1,0 +1,57 @@
+.extraInfoFluid{
+    background-color: #fff;
+}
+.extraInfoWrapper{
+    padding-bottom: 2rem;
+}
+.extraInfoHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 12px 0px 0px 0px;
+    color: #84449a;
+}
+.extraInfoHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #84449a;
+    margin-top: -4px;
+}
+.extraInfoHead a{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #84449a;
+}
+.suitesSection{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    column-gap: 6px;
+}
+.suites1{
+    background-image: url("../../../../assets/images/suites/balcon.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.suites2{
+    background-image: url("../../../../assets/images/suites/in.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.suites3{
+    background-image: url("../../../../assets/images/suites/bed.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}

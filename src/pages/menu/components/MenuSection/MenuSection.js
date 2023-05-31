@@ -1,7 +1,14 @@
 import React from 'react';
 import { Col, Container, Row, Image, Button, Tabs, Tab, Nav } from 'react-bootstrap';
+import { FaIcons } from 'react-icons/fa';
+import { Pizza } from '../../Data';
 import BreakfastMenu from '../MenuItem/BreakfastMenu';
+import DrinksMenu from '../MenuItem/DrinksMenu';
+import IceCream from '../MenuItem/IceCream';
+import LunchMenu from '../MenuItem/LunchMenu';
 import MenuItem from '../MenuItem/MenuItem'
+import PizzaMenu from '../MenuItem/PizzaMenu';
+import Specials from '../MenuItem/Specials';
 import './menuSection.css';
 
 export default function MenuSection() {
@@ -27,6 +34,15 @@ export default function MenuSection() {
                                     <Nav.Item>
                                         <Nav.Link className="menuTabLink" eventKey="third">Drinks</Nav.Link>
                                     </Nav.Item>
+                                    <Nav.Item>
+                                        <Nav.Link className="menuTabLink" eventKey="fourth">Pizza</Nav.Link>
+                                    </Nav.Item>
+                                    <Nav.Item>
+                                        <Nav.Link className="menuTabLink" eventKey="fifth">Icecream</Nav.Link>
+                                    </Nav.Item>
+                                    <Nav.Item>
+                                        <Nav.Link className="menuTabLink" eventKey="sixth">Specials</Nav.Link>
+                                    </Nav.Item>
                                 </Nav>
                             </Col>
                             <Col sm={9} className="menuContentRight">
@@ -35,10 +51,19 @@ export default function MenuSection() {
                                         <BreakfastMenu/>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="second">
-                                        <MenuItem title="Lunch/Dinner"/>
+                                        <LunchMenu/>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="third">
-                                        <MenuItem title="Drinks"/>
+                                        <DrinksMenu/>
+                                    </Tab.Pane>
+                                    <Tab.Pane eventKey="fourth">
+                                        <PizzaMenu/>
+                                    </Tab.Pane>
+                                    <Tab.Pane eventKey="fifth">
+                                        <IceCream/>
+                                    </Tab.Pane>
+                                    <Tab.Pane eventKey="sixth">
+                                        <Specials/>
                                     </Tab.Pane>
                                 </Tab.Content>
                             </Col>

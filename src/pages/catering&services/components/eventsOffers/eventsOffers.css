@@ -1,0 +1,25 @@
+.eventOfferFluid{
+    background-color: #84449a;
+   
+}
+.eventOfferWrapper{
+    padding: 4em 0em;
+}
+.eventOfferContent h5{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 16px 0px 0px 0px;
+}
+.eventOfferContent p{
+    color: #fff;
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    margin-top: -4px;
+}
+.eventOfferContent ul li{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}

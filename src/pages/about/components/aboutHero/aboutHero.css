@@ -17,31 +17,52 @@
     width: inherit;
     left: 0;
     align-items: center;
-    gap: 4px;
-    bottom: 4px;
+    gap: 6px;
+    bottom: 0px;
     position: absolute;
 } 
-.aboutProfileLeft{
-    background-color: rgba(132, 68, 154, 0.9);
+.aboutProfileIcon{
+    position: absolute;
+    top: -2.5rem;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: .75rem;
+}
+.aboutProfileLeft, .aboutProfileCenter, .aboutProfileRight{
+    /* background-color: rgba(132, 68, 154, 1); */
+    background-image: url("../../../../assets/images/purple.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     border-top-left-radius: 8px;
-
-
-}
-.aboutProfileRight{
-    background-color: rgba(132, 68, 154, 0.9);
     border-top-right-radius: 8px;
-
-
+    align-self: stretch;
 }
-.aboutProfile h5{
+.aboutProfileDefinition h5{
     color: #fff;
+    /* color: #f26721; */
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    /* font-family: 'Playfair Display', serif; */
-    padding: 4px;
-}
-.aboutProfile p{
-    color: #fff;
-    padding: 4px;
+    position: relative;
     font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+.aboutProfileDefinition p{
+    color: #fff;
+    padding: 2px 4px 4px 4px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.aboutProfileDefinition ul{
+    line-height: 1.2rem;
+}
+.aboutProfileDefinition ul li{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
 }

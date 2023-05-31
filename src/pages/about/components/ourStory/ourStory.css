@@ -1,3 +1,6 @@
+.ourStoryWrapper{
+    padding: 3rem 0rem;
+}
 .ourStoryHead h5{
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
@@ -10,4 +13,8 @@
     font-size: 1em;
     color: #84449a;
     margin-top: -4px;
+}
+.ourStoryStory p{
+    font-family: 'Lato', sans-serif;
+
 }

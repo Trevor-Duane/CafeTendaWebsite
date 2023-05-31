@@ -5,7 +5,7 @@ import SingleItem from './SingleItem'
 import { breakfastCombos, breakfastSandwiches } from '../../Data'
 import { FaChevronDown } from 'react-icons/fa'
 
-export default function BreakfastMenu() {
+export default function IceCream() {
     const [isActive, setIsActive] = React.useState({})
 
     React.useEffect(() => {
