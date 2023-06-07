@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
-import { FaHandHoldingHeart, FaRegEye } from 'react-icons/fa';
-import { GiBullseye } from "react-icons/gi";
+import { FaHandHoldingHeart, FaRegEye, FaBullseye } from 'react-icons/fa';
+// import { GiBullseye } from "react-icons/gi";
 import './aboutHero.css';
 
 export default function AboutHero() {
@@ -24,7 +24,7 @@ export default function AboutHero() {
 
                     <div className='col-sm-4 d-flex flex-column align-items-center aboutProfileCenter'>
                         <div className="aboutProfileIcon">
-                            <GiBullseye size={42} color="#84449a"/>
+                            <FaBullseye size={42} color="#84449a"/>
                         </div>
                         <div className="aboutProfileDefinition">
                             <h5>Mission</h5>

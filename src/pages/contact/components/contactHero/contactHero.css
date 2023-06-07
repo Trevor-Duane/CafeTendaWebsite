@@ -1,0 +1,48 @@
+.contactFluid{
+    background-color: #84449a;
+
+}
+.contactHeroFluid{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../../../../assets/images/tenda-front.png");
+    height: auto;
+    background-position: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.contactHeroWrapper{
+    padding: 8rem 0rem;
+}
+.contactHeroHead h5{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.contactHeroHead p{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+}
+.contactHeroButtonWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactHeroButton{
+    background-color: #84449a !important;
+    border: #84449a 1px solid !important;
+    padding: .2rem 1rem !important;
+    
+
+}
+.contactHeroButton span{
+    font-weight: bolder;
+    padding: 0px 6px;
+    font-size: 1rem;
+}

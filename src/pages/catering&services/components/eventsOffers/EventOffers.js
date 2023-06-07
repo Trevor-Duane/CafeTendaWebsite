@@ -13,7 +13,6 @@ export default function EventOffers() {
                     <li>Free Venue</li>
                     <li>Free Music</li>
                     <li>Free Decor</li>
-                    {/* <li>Access to all Amenities</li> */}
                 </ul>
             </div>
         </Container>

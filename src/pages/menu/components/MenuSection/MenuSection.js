@@ -23,7 +23,7 @@ export default function MenuSection() {
                 <div className="dishMenuTabWrapper">
                     <Tab.Container id="menuCategoryTabs" defaultActiveKey="first">
                         <Row>
-                            <Col sm={3} className="menuContentLeft">
+                            <Col xs={12} sm={3} md={6} className="menuContentLeft">
                                 <Nav variant="pills" className="flex-column">
                                     <Nav.Item>
                                         <Nav.Link className="menuTabLink" eventKey="first">Breakfast</Nav.Link>
@@ -45,7 +45,7 @@ export default function MenuSection() {
                                     </Nav.Item>
                                 </Nav>
                             </Col>
-                            <Col sm={9} className="menuContentRight">
+                            <Col xs={12} sm={9} md={6} className="menuContentRight">
                                 <Tab.Content>
                                     <Tab.Pane eventKey="first">
                                         <BreakfastMenu/>

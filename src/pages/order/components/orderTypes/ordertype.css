@@ -1,0 +1,279 @@
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 480px) {
+
+.orderTypeFluid{
+    background-color: #84449a;
+}
+.orderTypeWrapper{
+    padding: 2rem 0rem;
+}
+.orderTypesHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 16px 0px 0px 0px;
+    color: #fff;
+}
+.orderTypesHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #fff;
+    margin-top: -4px;
+}
+.orderTypeContent{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.orderTypeCard{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #e2c0f8;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.orderTypeCard div:first-child{
+    background-color: #faf9f6;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.orderTypeCard h5{
+    padding: 6px;
+    font-family: 'Lato', sans-serif;
+    color: #84449a;
+    font-weight: bold;
+}
+.orderTypeCard p{
+    padding: 0px 6px;
+    font-family: 'Lato', sans-serif;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 481px) and (max-width: 767px) {
+
+.orderTypeFluid{
+    background-color: #84449a;
+}
+.orderTypeWrapper{
+    padding: 2rem 0rem;
+}
+.orderTypesHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 16px 0px 0px 0px;
+    color: #fff;
+}
+.orderTypesHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #fff;
+    margin-top: -4px;
+}
+.orderTypeContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.orderTypeCard{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #e2c0f8;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.orderTypeCard div:first-child{
+    background-color: #faf9f6;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.orderTypeCard h5{
+    padding: 6px;
+    font-family: 'Lato', sans-serif;
+    color: #84449a;
+    font-weight: bold;
+}
+.orderTypeCard p{
+    padding: 0px 6px;
+    font-family: 'Lato', sans-serif;
+}
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.orderTypeFluid{
+    background-color: #84449a;
+}
+.orderTypeWrapper{
+    padding: 2rem 0rem;
+}
+.orderTypesHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 16px 0px 0px 0px;
+    color: #fff;
+}
+.orderTypesHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #fff;
+    margin-top: -4px;
+}
+.orderTypeContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.orderTypeCard{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #e2c0f8;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.orderTypeCard div:first-child{
+    background-color: #faf9f6;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.orderTypeCard h5{
+    padding: 6px;
+    font-family: 'Lato', sans-serif;
+    color: #84449a;
+    font-weight: bold;
+}
+.orderTypeCard p{
+    padding: 0px 6px;
+    font-family: 'Lato', sans-serif;
+}
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+.orderTypeFluid{
+    background-color: #84449a;
+}
+.orderTypeWrapper{
+    padding: 2rem 0rem;
+}
+.orderTypesHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 16px 0px 0px 0px;
+    color: #fff;
+}
+.orderTypesHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #fff;
+    margin-top: -4px;
+}
+.orderTypeContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.orderTypeCard{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #e2c0f8;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.orderTypeCard div:first-child{
+    background-color: #faf9f6;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.orderTypeCard h5{
+    padding: 6px;
+    font-family: 'Lato', sans-serif;
+    color: #84449a;
+    font-weight: bold;
+}
+.orderTypeCard p{
+    padding: 0px 6px;
+    font-family: 'Lato', sans-serif;
+}
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+
+.orderTypeFluid{
+    background-color: #84449a;
+}
+.orderTypeWrapper{
+    padding: 2rem 0rem;
+}
+.orderTypesHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 16px 0px 0px 0px;
+    color: #fff;
+}
+.orderTypesHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #fff;
+    margin-top: -4px;
+}
+.orderTypeContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.orderTypeCard{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #e2c0f8;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.orderTypeCard div:first-child{
+    background-color: #faf9f6;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.orderTypeCard h5{
+    padding: 6px;
+    font-family: 'Lato', sans-serif;
+    color: #84449a;
+    font-weight: bold;
+}
+.orderTypeCard p{
+    padding: 0px 6px;
+    font-family: 'Lato', sans-serif;
+}
+}

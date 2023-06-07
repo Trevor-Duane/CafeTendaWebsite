@@ -1,10 +1,13 @@
 import React from 'react'
 import Layout from '../../shared/layout/Layout'
+import HeroSection from './components/heroSection/HeroSection'
+import OrderType from './components/orderTypes/OrderType'
 
 export default function OnlineOrdering() {
   return (
     <Layout>
-        <p className='p-5'>Make Online Order</p>
+        <HeroSection/>
+        <OrderType/>
     </Layout>
   )
 }

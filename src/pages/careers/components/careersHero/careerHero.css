@@ -1,0 +1,210 @@
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 480px) {
+    .careersHeroFluid{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/cook.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-bottom-left-radius: 1.3em;
+        border-bottom-right-radius: 1.3em;
+    }
+    .careersHeroWrapper{
+        padding: 6em 0em;
+    }
+    .careersHeroText{
+        padding: 2rem 0rem;
+        text-align: center;
+    }
+    .careersHeroText h2{
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        font-size: 2.4rem;
+    }
+    .careersHeroText h5{
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        text-decoration: underline;
+    
+    }
+    .careersHeroText p{
+        width: 100%;
+        margin: auto;
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+    
+    }
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .careersHeroFluid{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/cook.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-bottom-left-radius: 1.3em;
+        border-bottom-right-radius: 1.3em;
+    }
+    .careersHeroWrapper{
+        padding: 6em 0em;
+    }
+    .careersHeroText{
+        padding: 2rem 0rem;
+        text-align: center;
+    }
+    .careersHeroText h2{
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        font-size: 2.4rem;
+    }
+    .careersHeroText h5{
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    .careersHeroText p{
+        width: 40%;
+        margin: auto;
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+    
+    }
+   
+  }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .careersHeroFluid{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/cook.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-bottom-left-radius: 1.3em;
+        border-bottom-right-radius: 1.3em;
+    }
+    .careersHeroWrapper{
+        padding: 6em 0em;
+    }
+    .careersHeroText{
+        padding: 2rem 0rem;
+        text-align: center;
+    }
+    .careersHeroText h2{
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        font-size: 2.4rem;
+    }
+    .careersHeroText h5{
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    .careersHeroText p{
+        width: 40%;
+        margin: auto;
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+    
+    }
+   
+  }
+  
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .careersHeroFluid{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/cook.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-bottom-left-radius: 1.3em;
+        border-bottom-right-radius: 1.3em;
+    }
+    .careersHeroWrapper{
+        padding: 6em 0em;
+    }
+    .careersHeroText{
+        padding: 2rem 0rem;
+        text-align: center;
+    }
+    .careersHeroText h2{
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        font-size: 2.4rem;
+    }
+    .careersHeroText h5{
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    .careersHeroText p{
+        width: 40%;
+        margin: auto;
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+    
+    }
+   
+  }
+  
+  /* Media Query for Large screens */
+  @media (min-width: 1281px) {
+    .careersHeroFluid{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/cook.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-bottom-left-radius: 1.3em;
+        border-bottom-right-radius: 1.3em;
+    }
+    .careersHeroWrapper{
+        padding: 6em 0em;
+    }
+    .careersHeroText{
+        padding: 2rem 0rem;
+        text-align: center;
+    }
+    .careersHeroText h2{
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        font-size: 2.4rem;
+    }
+    .careersHeroText h5{
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    .careersHeroText p{
+        width: 40%;
+        margin: auto;
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    
+  }
+  

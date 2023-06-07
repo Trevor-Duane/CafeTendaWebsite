@@ -1,10 +1,13 @@
 import React from 'react'
 import Layout from '../../shared/layout/Layout'
+import CareersHero from './components/careersHero/CareersHero'
+import CareersSection from './components/careersSection/CareersSection'
 
 export default function Careers() {
   return (
     <Layout>
-        <p className='p-5'>Careers at Cafe enda</p>
+        <CareersHero/>
+        <CareersSection/>
     </Layout>
   )
 }

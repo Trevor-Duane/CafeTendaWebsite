@@ -22,7 +22,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    width: 350px;
+    width: max-content;
+    padding: 1rem 0rem;
     top: 5rem;
     height: fit-content;
     border-radius: 8px;
@@ -30,6 +31,8 @@
 }
 .formWrapper{
     padding: 4px 6px;
+    margin: 0rem 1rem;
+    width: auto;
 }
 .formWrapper h5{
     padding: 4px 6px;
@@ -51,6 +54,7 @@
 }
 .reserveForm{
     border-top: 1px solid #fff;
+    width: fit-content;
 }
 .reserveButton{
     background-color: #fff !important;

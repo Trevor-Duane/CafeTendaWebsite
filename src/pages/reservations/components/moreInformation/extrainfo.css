@@ -1,8 +1,74 @@
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 480px) {
+
 .extraInfoFluid{
     background-color: #fff;
 }
 .extraInfoWrapper{
-    padding-bottom: 2rem;
+    padding: 2rem 0rem;
+}
+.extraInfoHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 12px 0px 0px 0px;
+    color: #84449a;
+}
+.extraInfoHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #84449a;
+    margin-top: -4px;
+}
+.extraInfoHead a{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #84449a;
+}
+.suitesSection{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 300px 300px;
+    column-gap: 6px;
+    row-gap: 1rem;
+}
+.suites1{
+    background-image: url("../../../../assets/images/suites/balcon.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.suites2{
+    background-image: url("../../../../assets/images/suites/in.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.suites3{
+    background-image: url("../../../../assets/images/suites/bed.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (min-width: 481px) and (max-width: 767px) {
+
+.extraInfoFluid{
+    background-color: #fff;
+}
+.extraInfoWrapper{
+    padding: 2rem 0rem;
 }
 .extraInfoHead h5{
     font-family: 'Roboto', sans-serif;
@@ -55,3 +121,195 @@
     position: relative;
 
 }
+   
+  }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+.extraInfoFluid{
+    background-color: #fff;
+}
+.extraInfoWrapper{
+    padding: 2rem 0rem;
+}
+.extraInfoHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 12px 0px 0px 0px;
+    color: #84449a;
+}
+.extraInfoHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #84449a;
+    margin-top: -4px;
+}
+.extraInfoHead a{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #84449a;
+}
+.suitesSection{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    column-gap: 6px;
+}
+.suites1{
+    background-image: url("../../../../assets/images/suites/balcon.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.suites2{
+    background-image: url("../../../../assets/images/suites/in.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.suites3{
+    background-image: url("../../../../assets/images/suites/bed.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+   
+  }
+  
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+
+.extraInfoFluid{
+    background-color: #fff;
+}
+.extraInfoWrapper{
+    padding: 2rem 0rem;
+}
+.extraInfoHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 12px 0px 0px 0px;
+    color: #84449a;
+}
+.extraInfoHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #84449a;
+    margin-top: -4px;
+}
+.extraInfoHead a{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #84449a;
+}
+.suitesSection{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    column-gap: 6px;
+}
+.suites1{
+    background-image: url("../../../../assets/images/suites/balcon.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.suites2{
+    background-image: url("../../../../assets/images/suites/in.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.suites3{
+    background-image: url("../../../../assets/images/suites/bed.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+   
+  }
+  
+  /* Media Query for Large screens */
+  @media (min-width: 1281px) {
+
+.extraInfoFluid{
+    background-color: #fff;
+}
+.extraInfoWrapper{
+    padding: 2rem 0rem;
+}
+.extraInfoHead h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 12px 0px 0px 0px;
+    color: #84449a;
+}
+.extraInfoHead p{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #84449a;
+    margin-top: -4px;
+}
+.extraInfoHead a{
+    font-family: 'Oregano', cursive; 
+    font-size: 1em;
+    color: #84449a;
+}
+.suitesSection{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    column-gap: 6px;
+}
+.suites1{
+    background-image: url("../../../../assets/images/suites/balcon.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.suites2{
+    background-image: url("../../../../assets/images/suites/in.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.suites3{
+    background-image: url("../../../../assets/images/suites/bed.jpg");
+    border-radius: 12px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+    
+  }
+  

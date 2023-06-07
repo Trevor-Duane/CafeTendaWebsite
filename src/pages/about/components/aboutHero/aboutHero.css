@@ -34,7 +34,6 @@
     padding: .75rem;
 }
 .aboutProfileLeft, .aboutProfileCenter, .aboutProfileRight{
-    /* background-color: rgba(132, 68, 154, 1); */
     background-image: url("../../../../assets/images/purple.jpg");
     background-position: center;
     background-repeat: no-repeat;

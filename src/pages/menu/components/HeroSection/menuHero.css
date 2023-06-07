@@ -1,56 +1,301 @@
 /* css for the first hero section of the menu page */
-.menuHerofluid{
-    background-image: url("../../../../assets/images/paper.png");
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 480px) {
+    .menuHerofluid{
+        background-image: url("../../../../assets/images/paper.png");
+        
+    }
+    .menuHeroWrapper{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/sandwich.jpg");
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-bottom-left-radius: 1.3em;
+        border-bottom-right-radius: 1.3em;
+    }
+    .menuHeroContent{
+        padding: 4em 0em;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+    }
+    .menuHeroText h5{
+        font-size: 2.5em;
+        font-family: 'Roboto', sans-serif;
+        color: #FFF;
+        text-align: center;
     
+    }
+    
+    .menuHeroText p{
+        text-align: center !important;
+        font-size: 1em;
+        margin: auto;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    .menuHeroButtons{
+        padding-top: 2em;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .menuHeroButton1{
+        background-color: #84449a !important;
+        border: 1px solid #84449a !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', sans-serif !important;
+    }
+    .menuHeroButton2{
+        background-color: #FFF !important;
+        border: 1px solid #84449a !important;
+        color: #84449a !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', sans-serif !important;
+    }
 }
-.menuHeroWrapper{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/sandwich.jpg");
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    border-bottom-left-radius: 1.3em;
-    border-bottom-right-radius: 1.3em;
-}
-.menuHeroContent{
-    padding: 7em 0em;
-    display: flex;
-    flex-direction: column ;
-    align-items: center;
-    justify-content: center;
-}
-.menuHeroText h5{
-    font-size: 2.5em;
-    font-family: 'Roboto', sans-serif;
-    color: #FFF;
-    text-align: center;
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .menuHerofluid{
+        background-image: url("../../../../assets/images/paper.png");
+        
+    }
+    .menuHeroWrapper{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/sandwich.jpg");
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-bottom-left-radius: 1.3em;
+        border-bottom-right-radius: 1.3em;
+    }
+    .menuHeroContent{
+        padding: 4em 0em;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+    }
+    .menuHeroText h5{
+        font-size: 2.5em;
+        font-family: 'Roboto', sans-serif;
+        color: #FFF;
+        text-align: center;
+    
+    }
+    
+    .menuHeroText p{
+        text-align: center !important;
+        font-size: 1em;
+        margin: auto;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    .menuHeroButtons{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1em;
+    }
+    .menuHeroButton1{
+        background-color: #84449a !important;
+        border: 1px solid #84449a !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', sans-serif !important;
+    }
+    .menuHeroButton2{
+        background-color: #FFF !important;
+        border: 1px solid #84449a !important;
+        color: #84449a !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', sans-serif !important;
+    }
+   
+  }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .menuHerofluid{
+        background-image: url("../../../../assets/images/paper.png");
+        
+    }
+    .menuHeroWrapper{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/sandwich.jpg");
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-bottom-left-radius: 1.3em;
+        border-bottom-right-radius: 1.3em;
+    }
+    .menuHeroContent{
+        padding: 7em 0em;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+    }
+    .menuHeroText h5{
+        font-size: 2.5em;
+        font-family: 'Roboto', sans-serif;
+        color: #FFF;
+        text-align: center;
+    
+    }
+    
+    .menuHeroText p{
+        text-align: center !important;
+        font-size: 1em;
+        margin: auto;
+        width: 60%;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    .menuHeroButtons{
+        padding-top: 1em;
+    }
+    .menuHeroButton1{
+        background-color: #84449a !important;
+        border: 1px solid #84449a !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', sans-serif !important;
+    }
+    .menuHeroButton2{
+        background-color: #FFF !important;
+        border: 1px solid #84449a !important;
+        color: #84449a !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', sans-serif !important;
+    }
+   
+  }
+  
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .menuHerofluid{
+        background-image: url("../../../../assets/images/paper.png");
+        
+    }
+    .menuHeroWrapper{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/sandwich.jpg");
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-bottom-left-radius: 1.3em;
+        border-bottom-right-radius: 1.3em;
+    }
+    .menuHeroContent{
+        padding: 7em 0em;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+    }
+    .menuHeroText h5{
+        font-size: 2.5em;
+        font-family: 'Roboto', sans-serif;
+        color: #FFF;
+        text-align: center;
+    
+    }
+    
+    .menuHeroText p{
+        text-align: center !important;
+        font-size: 1em;
+        margin: auto;
+        width: 60%;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    .menuHeroButtons{
+        padding-top: 1em;
+    }
+    .menuHeroButton1{
+        background-color: #84449a !important;
+        border: 1px solid #84449a !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', sans-serif !important;
+    }
+    .menuHeroButton2{
+        background-color: #FFF !important;
+        border: 1px solid #84449a !important;
+        color: #84449a !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', sans-serif !important;
+    }
+   
+  }
+  
+  /* Media Query for Large screens */
+  @media (min-width: 1281px) {
+    .menuHerofluid{
+        background-image: url("../../../../assets/images/paper.png");
+        
+    }
+    .menuHeroWrapper{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/sandwich.jpg");
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-bottom-left-radius: 1.3em;
+        border-bottom-right-radius: 1.3em;
+    }
+    .menuHeroContent{
+        padding: 7em 0em;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+    }
+    .menuHeroText h5{
+        font-size: 2.5em;
+        font-family: 'Roboto', sans-serif;
+        color: #FFF;
+        text-align: center;
+    
+    }
+    
+    .menuHeroText p{
+        text-align: center !important;
+        font-size: 1em;
+        margin: auto;
+        width: 60%;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    .menuHeroButtons{
+        padding-top: 1em;
+    }
+    .menuHeroButton1{
+        background-color: #84449a !important;
+        border: 1px solid #84449a !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', sans-serif !important;
+    }
+    .menuHeroButton2{
+        background-color: #FFF !important;
+        border: 1px solid #84449a !important;
+        color: #84449a !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', sans-serif !important;
+    }
+    
+  }
+  
 
-}
-
-.menuHeroText p{
-    text-align: center !important;
-    font-size: 1em;
-    margin: auto;
-    width: 60%;
-    color: #FFF;
-    font-family: 'Lato', sans-serif;
-
-}
-.menuHeroButtons{
-    padding-top: 1em;
-}
-.menuHeroButton1{
-    background-color: #84449a !important;
-    border: 1px solid #84449a !important;
-    font-weight: 400 !important;
-    font-family: 'Roboto', sans-serif !important;
-}
-.menuHeroButton2{
-    background-color: #FFF !important;
-    border: 1px solid #84449a !important;
-    color: #84449a !important;
-    font-weight: 400 !important;
-    font-family: 'Roboto', sans-serif !important;
-}
 
