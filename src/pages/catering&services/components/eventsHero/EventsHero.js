@@ -16,15 +16,13 @@ export default function EventsHero() {
 
             <div className="col-sm-4 callBackForm">
               <InputGroup className="mb-3">
-                <Form.Control aria-label="First name" placeholder="First Name" />
-                <Form.Control aria-label="Last name" placeholder="Last Name" />
+                <Form.Control placeholder="First Name" />
+                <Form.Control placeholder="Last Name" />
               </InputGroup>
 
               <InputGroup className="mb-3">
                 <Form.Control
                   placeholder="Your Contact"
-                  aria-label="Client's contact"
-                  aria-describedby="callback"
                 />
                 <Button className="callbackButton" id="callback">Let us call you</Button>
               </InputGroup>

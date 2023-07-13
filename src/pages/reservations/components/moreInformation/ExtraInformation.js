@@ -8,7 +8,7 @@ export default function ExtraInformation() {
         <Container className="extraInfoWrapper">
             <div className="extraInfoHead">
                 <h5>Checkout Our Suites</h5>
-                <p>Tenda Suites bed and breakfast reimagined just for the stylish traveller, <a href='https://www.tendasuites.com' target="_blank">more about tenda suites</a></p>
+                <p>Tenda Suites bed and breakfast reimagined just for the stylish traveller, <a href='https://www.tendasuites.com'>more about tenda suites</a></p>
             </div>
 
             <div className="suitesSection">

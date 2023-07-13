@@ -1,8 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import interior from '../../assets/images/bar.JPG'
-import outside from '../../assets/images/outside.jpg'
-import eats from '../../assets/images/eats2.JPG'
+import interior from '../../assets/images/bar.jpg'
+import eats from '../../assets/images/eats-drinks.jpg'
 import Carousel from 'nuka-carousel'
 import './content.css'
 
@@ -26,12 +25,6 @@ export default function Content() {
       "description": "Birthday or graduation party, bridal or baby shower, comes with a free venue",
       "img": "https://img.freepik.com/free-photo/eat-wedding-plate-lunch-healthy_1203-4049.jpg?w=996&t=st=1684239309~exp=1684239909~hmac=92376471e2546a37b264a78dbbea6edad85fc877bf37046edda7dd088191da24"
     },
-    // {
-    //   "id": 4,
-    //   "name": "Deliveries",
-    //   "description": "Don't feel like leaving your couch, lucky for you, we deliver to your doorstep or couch",
-    //   "img": "https://www.pngkit.com/png/full/260-2600020_we-deliver-we-deliver.png"
-    // },
     {
       "id": 5,
       "name": "Workhub",
@@ -51,7 +44,8 @@ export default function Content() {
             <Col className="contentCol1 p-0" xs={12} sm={12} md={12}>
               <Carousel
                 autoplay={true} autoplayInterval={3000} wrapAround={true} adaptiveHeight={true}>
-                {/* <Image  className="img-fluid" height="540" src={outside} alt="cafe tenda interior"/> */}
+                {/* <Image className="img-fluid" height="540" src="https://res.cloudinary.com/dv6plapfo/image/upload/f_auto,q_auto/v1/webassets/bar2_ppoig1" alt="cafe tenda interior"/> */}
+                {/* <Image className="img-fluid" height="540" src="https://res.cloudinary.com/dv6plapfo/image/upload/f_auto,q_auto/v1/webassets/eats2_cmfups" alt="cafe tenda interior"/> */}
                 <Image className="img-fluid" height="540" src={interior} alt="cafe tenda interior"/>
                 <Image className="img-fluid" height="540" src={eats} alt="cafe tenda interior"/>
               </Carousel>
@@ -82,7 +76,6 @@ export default function Content() {
                 </div>
               </Col>
             </Row>
-            
           </Container>
         </Container>
   )

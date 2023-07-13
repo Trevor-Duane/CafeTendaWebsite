@@ -3,7 +3,7 @@
 
 }
 .contactHeroFluid{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../../../../assets/images/tenda-front.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("https://res.cloudinary.com/dv6plapfo/image/upload/f_auto,q_auto/v1/webassets/tenda-front_vpb5b0");
     height: auto;
     background-position: center;
     border-bottom-left-radius: 12px;

@@ -2,7 +2,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 480px) {
     .dishMenuWrapper{
-        background-image: url("../../../../assets/images/paper.png");
+        background-image: url("https://res.cloudinary.com/dv6plapfo/image/upload/f_auto,q_auto/v1/webassets/paper_yc6pl3");
         border-bottom-left-radius: -1.3em;
         border-bottom-right-radius: -1.3em;
         padding-bottom: 2em;

@@ -1,11 +1,10 @@
 import React, { useRef } from 'react';
 import { Col, Container, Row, Image } from 'react-bootstrap';
-import eats from '../../assets/images/eats.JPG'
-import bar2 from '../../assets/images/bar2.JPG'
-import burger from '../../assets/images/burger.JPG'
-import salad from '../../assets/images/salad.JPG'
-import blue from '../../assets/images/blue.JPG'
-import drinks from '../../assets/images/drinks.JPG'
+import eats from '../../assets/images/eats.jpg'
+import burger from '../../assets/images/burger.jpg'
+import salad from '../../assets/images/salad.jpg'
+import blue from '../../assets/images/blue.jpg'
+import drinks from '../../assets/images/drinks.jpg'
 import fries from '../../assets/images/fries.jpeg'
 import bread from '../../assets/images/bread.jpeg'
 import sausage from '../../assets/images/sausage.jpeg'

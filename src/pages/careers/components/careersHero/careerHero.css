@@ -1,7 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 480px) {
     .careersHeroFluid{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/cook.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dv6plapfo/image/upload/v1687270600/webassets/cook_mdmo0x.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

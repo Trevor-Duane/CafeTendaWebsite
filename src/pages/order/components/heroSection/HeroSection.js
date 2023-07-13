@@ -1,8 +1,8 @@
 import React from 'react';
 import './heroSection.css';
-import whatsapp from "../../../../assets/images/whatsapp.png";
+import whatsapp from "../../../../assets/icons/whatsapp.png";
 import landline from "../../../../assets/images/phone.png";
-import playstore from "../../../../assets/images/playstore.png";
+import playstore from "../../../../assets/icons/playstore.png";
 import { Button, Col, Container, Row } from 'react-bootstrap';
 
 export default function HeroSection() {

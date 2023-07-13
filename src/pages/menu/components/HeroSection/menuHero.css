@@ -2,11 +2,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 480px) {
     .menuHerofluid{
-        background-image: url("../../../../assets/images/paper.png");
+        background-image: url("https://res.cloudinary.com/dv6plapfo/image/upload/f_auto,q_auto/v1/webassets/paper_yc6pl3");
         
     }
     .menuHeroWrapper{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/sandwich.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dv6plapfo/image/upload/f_auto,q_auto/v1/webassets/sandwich_rkchko");
         height: auto;
         background-position: center;
         background-repeat: no-repeat;

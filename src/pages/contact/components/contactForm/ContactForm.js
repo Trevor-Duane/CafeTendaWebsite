@@ -1,7 +1,6 @@
 import React from 'react';
-import { Button, Container, Form } from 'react-bootstrap';
+import { Container, Form } from 'react-bootstrap';
 import './contactForm.css';
-import { IoChatbubbles } from 'react-icons/io5';
 import { MdLocationPin, MdEmail, MdLocalPhone } from 'react-icons/md';
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
