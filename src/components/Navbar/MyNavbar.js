@@ -18,11 +18,11 @@ const pages = [
     name: "About Us",
     path:"/about-us"
   },
-  {
-    id: 2,
-    name: "Menu",
-    path:"/our-menu"
-  },
+  // {
+  //   id: 2,
+  //   name: "Menu",
+  //   path:"/our-menu"
+  // },
   {
     id: 4,
     name: "Catering & Events",
